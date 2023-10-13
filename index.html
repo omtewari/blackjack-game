@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Blackjack</h1>
+    <p id="message-el">want to play around?</p>
+    <p id="card-el">cards:</p>
+    <p id="sum-el">sum:</p>
+    <button id="start-el" onclick="startgame()"> START GAME</button>
+    <button id="newcard-el" onclick="newcard()">NEW CARD</button>
+    <p id="player-el"></p>
+    <div id="rules">
+        <p> INSTRUCTIONS <br> 1. If the sum of two cards is 21 you have made a blackjack. <br>
+                                 2. If your sum exceeds the value of 21 then you have lost the game. <br>
+                                 3. If the sum is less then 21 and you wish to draw another card you can click on new card button. 
+                                    
+    </p>
+</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
